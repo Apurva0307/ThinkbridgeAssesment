@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42140" started-at="2021-07-29T19:55:32 IST" finished-at="2021-07-29T19:56:14 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="42140" started-at="2021-07-29T19:55:32 IST" finished-at="2021-07-29T19:56:14 IST">
+      <class name="testCases.TestLaunching">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.TestLaunching@29b5cd00]" name="setUp" is-config="true" duration-ms="14592" started-at="2021-07-29T19:55:32 IST" finished-at="2021-07-29T19:55:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SignUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TestLaunching@29b5cd00]" name="SignUp" duration-ms="27189" started-at="2021-07-29T19:55:46 IST" finished-at="2021-07-29T19:56:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demo Travel Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tesla]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demo_Travel_Test@mailsac.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp -->
+        <test-method status="PASS" signature="tearOff()[pri:0, instance:testCases.TestLaunching@29b5cd00]" name="tearOff" is-config="true" duration-ms="188" started-at="2021-07-29T19:56:13 IST" finished-at="2021-07-29T19:56:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearOff -->
+      </class> <!-- testCases.TestLaunching -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
